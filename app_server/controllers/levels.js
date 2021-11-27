@@ -4,7 +4,7 @@ const { menu } = require('../models/courses');
 debug(JSON.stringify(menu));
 
 const levelsReadALL = (req, res) => {
-    res.render('niveau', { menu });
+    res.render('levels', { menu });
 }
 
 module.exports = {
